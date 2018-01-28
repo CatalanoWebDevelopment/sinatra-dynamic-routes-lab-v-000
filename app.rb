@@ -21,7 +21,7 @@ class App < Sinatra::Base
 
     while counter < number do
       counter += 1
-      @phrases
+      puts @phrases
     end
   end
 
