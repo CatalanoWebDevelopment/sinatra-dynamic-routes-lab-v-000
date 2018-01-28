@@ -17,10 +17,8 @@ class App < Sinatra::Base
     @numbers = params[:number]
     @phrases = params[:phrase]
     number = @numbers.to_i
-    counter = 0
 
-    while counter < number do
-      counter += 1
+    number.times do
       @phrases
     end
   end
