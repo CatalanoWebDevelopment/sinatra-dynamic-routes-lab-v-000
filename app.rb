@@ -19,7 +19,7 @@ class App < Sinatra::Base
     number = @numbers.to_i
 
     number.times do
-      @phrases
+      puts @phrases
     end
   end
 
