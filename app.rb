@@ -19,7 +19,7 @@ class App < Sinatra::Base
     number = @numbers.to_i
 
     binding.pry 
-
+    number.times do @phrases end
   end
 
 
