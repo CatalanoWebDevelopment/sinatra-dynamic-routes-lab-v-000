@@ -31,10 +31,12 @@ class App < Sinatra::Base
     x = params.collect do |k, v|
       v
     end
-    
+
     x.join(" ") + "."
 
   end
 
+  get '/:operation/:number1/:number2' do
+  end
 
 end
