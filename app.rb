@@ -17,12 +17,9 @@ class App < Sinatra::Base
     @numbers = params[:number]
     @phrases = params[:phrase]
     number = @numbers.to_i
-    counter = 0
-
-    until counter == number do
-      counter += 1
-      @phrases
-    end
+    
+    binding.pry 
+    
   end
 
 
