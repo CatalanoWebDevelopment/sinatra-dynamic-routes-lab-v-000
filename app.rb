@@ -40,17 +40,15 @@ class App < Sinatra::Base
     @o = params[:operation]
     @n1 = params[:number1]
     @n2 = params[:number2]
-    n1 = @n1.to_i
-    n2 = @n2.to_i
 
     if @o == "add"
-      (n1 + n2)
+      (@n1.to_i + @n2.to_i)
     elsif @o == "subtract"
-      (n1 - n2)
+      (@n1.to_i - @n2.to_i)
     elsif @o == "multiply"
-      (n1 * n2)
+      (@n1.to_i * @n2.to_i)
     else
-      (n1 / n2)
+      (@n1.to_i / @n2.to_i)
     end
 
   end
