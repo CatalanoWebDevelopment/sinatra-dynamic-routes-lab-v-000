@@ -31,10 +31,9 @@ class App < Sinatra::Base
     x = params.collect do |k, v|
       v
     end
-
-    x[0].capitalize!
+    
     x.join(" ") + "."
-  
+
   end
 
 
