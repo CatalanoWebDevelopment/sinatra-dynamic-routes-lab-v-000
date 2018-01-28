@@ -42,7 +42,7 @@ class App < Sinatra::Base
     @n2 = params[:number2]
 
     if @o == "add"
-      @n1 + @n2
+      return @n1 + @n2
     elsif @o == "subtract"
       @n1 - @n2
     elsif @o == "multiply"
