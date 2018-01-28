@@ -40,6 +40,8 @@ class App < Sinatra::Base
     @o = params[:operation]
     @n1 = params[:number1]
     @n2 = params[:number2]
+
+    
   end
 
 end
