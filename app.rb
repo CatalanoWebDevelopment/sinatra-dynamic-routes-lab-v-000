@@ -24,10 +24,10 @@ class App < Sinatra::Base
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
     @w1 = params[:word1]
-    @w1 = params[:word1]
-    @w1 = params[:word1]
-    @w1 = params[:word1]
-    @w1 = params[:word1]
+    @w2 = params[:word2]
+    @w3 = params[:word3]
+    @w4 = params[:word4]
+    @w5 = params[:word5]
   end
 
 
