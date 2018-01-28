@@ -40,6 +40,8 @@ class App < Sinatra::Base
     @o = params[:operation]
     @n1 = params[:number1]
     @n2 = params[:number2]
+    n1 = @n1.to_i
+    n2 = @n2.to_i
 binding.pry
     if @o == "add"
       n1 + n2
