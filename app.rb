@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @phrases = params[:phrase]
     number = @numbers.to_i
     array = []
-binding.pry
+
     number.times do
       array << @phrases
     end
