@@ -44,7 +44,7 @@ class App < Sinatra::Base
     n2 = @n2.to_i
 
     if @o == "add"
-      n1 + n2
+      (n1 + n2)
     elsif @o == "subtract"
       n1 - n2
     elsif @o == "multiply"
