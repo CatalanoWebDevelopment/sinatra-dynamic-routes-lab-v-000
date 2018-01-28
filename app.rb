@@ -43,6 +43,13 @@ class App < Sinatra::Base
 
     if @o == "add"
       @o = +
+    elsif @o == "subtract"
+      @o = -
+    elsif @o == "multiply"
+      @o = *
+    else
+      @o = /
+    end
     binding.pry
   end
 
