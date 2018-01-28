@@ -19,11 +19,10 @@ class App < Sinatra::Base
     number = @numbers.to_i
     counter = 0
 
-    while counter < number do 
+    while counter < number do
       counter += 1
       @phrases
     end
-    binding.pry
   end
 
 
