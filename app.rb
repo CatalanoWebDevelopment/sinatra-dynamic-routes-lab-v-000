@@ -19,8 +19,10 @@ class App < Sinatra::Base
     number = @numbers.to_i
     array = []
 binding.pry
-    number.times do @phrases end
-    n
+    number.times do
+      array << @phrases
+    end
+
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
