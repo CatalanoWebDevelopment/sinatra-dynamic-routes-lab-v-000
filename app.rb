@@ -17,8 +17,9 @@ class App < Sinatra::Base
     @numbers = params[:number]
     @phrases = params[:phrase]
     number = @numbers.to_i
+    array = []
 binding.pry
-    n = number.times do @phrases end
+    number.times do @phrases end
     n
   end
 
