@@ -21,7 +21,7 @@ class App < Sinatra::Base
 
     until counter == number do
       counter += 1
-      @phrase
+      @phrases
     end
   end
 
