@@ -41,15 +41,15 @@ class App < Sinatra::Base
     @n1 = params[:number1]
     @n2 = params[:number2]
 binding.pry
-    if @o == "add"
-      @o = +
-    elsif @o == "subtract"
-      @o = -
-    elsif @o == "multiply"
-      @o = *
-    else
-      @o = /
-    end
+    # if @o == "add"
+    #   @o = +
+    # elsif @o == "subtract"
+    #   @o = -
+    # elsif @o == "multiply"
+    #   @o = *
+    # else
+    #   @o = /
+    # end
   end
 
 end
