@@ -41,6 +41,8 @@ class App < Sinatra::Base
     @n1 = params[:number1]
     @n2 = params[:number2]
 
+    if @o == "add"
+      @o = +
     binding.pry
   end
 
